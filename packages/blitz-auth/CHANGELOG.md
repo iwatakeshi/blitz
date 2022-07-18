@@ -1,5 +1,12 @@
 # @blitzjs/auth
 
+## 2.0.0-alpha.56
+
+### Patch Changes
+
+- 3f20a474: Update `deleteSession` return type — allow undefined values
+  - blitz@2.0.0-alpha.56
+
 ## 2.0.0-alpha.55
 
 ### Patch Changes
