@@ -11,7 +11,7 @@ export default async function Update__ModelName__(input, ctx: Ctx) {
   ctx.session.$isAuthorized()
 
   // TODO: in multi-tenant app, you must add validation to ensure correct tenant
-  const __modelName__ = await db.__modelName__.update({where: {id: input.id}, input})
+  const __modelName__ = await db.__modelName__.update({where: {id: input.id}, data: input})
 
   return __modelName__
 
